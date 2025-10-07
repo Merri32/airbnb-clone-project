@@ -97,6 +97,32 @@ The goal of this project is to build an Airbnb clone web application where users
 - **Caching**: Uses caching strategies to reduce database load and improve performance.
 
 
+## API Security
+
+- **Authentication**: Ensures that only registered users can access the system. This protects sensitive user information and prevents unauthorized access.
+
+- **Authorization**: Controls what actions each user can perform based on their role (e.g., guest vs. host). This prevents users from accessing or modifying data they shouldn’t.
+
+- **Rate Limiting**: Restricts the number of requests a user can make in a given time. This protects the APIs from abuse, spam, or denial-of-service attacks.
+
+- **Data Encryption**: Sensitive information like passwords and payment details will be encrypted to protect user privacy.
+
+- **Secure Payment Processing**: Integrates with trusted payment gateways to ensure payment data is handled safely and securely.
+
+
+## API Security
+
+- **Authentication**: Ensures that only registered users can access the system. This protects sensitive user information and prevents unauthorized access.
+
+- **Authorization**: Controls what actions each user can perform based on their role (e.g., guest vs. host). This prevents users from accessing or modifying data they shouldn’t.
+
+- **Rate Limiting**: Restricts the number of requests a user can make in a given time. This protects the APIs from abuse, spam, or denial-of-service attacks.
+
+- **Data Encryption**: Sensitive information like passwords and payment details will be encrypted to protect user privacy.
+
+- **Secure Payment Processing**: Integrates with trusted payment gateways to ensure payment data is handled safely and securely.
+
+
 
 
 
