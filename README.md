@@ -109,18 +109,25 @@ The goal of this project is to build an Airbnb clone web application where users
 
 - **Secure Payment Processing**: Integrates with trusted payment gateways to ensure payment data is handled safely and securely.
 
+## CI/CD Pipeline
 
-## API Security
+**Continuous Integration and Continuous Deployment (CI/CD)** pipelines automate the process of testing, building, and deploying code changes.  
+They help ensure that every code update is automatically tested and deployed, reducing manual work and minimizing the risk of errors.
 
-- **Authentication**: Ensures that only registered users can access the system. This protects sensitive user information and prevents unauthorized access.
+### Why CI/CD is Important
+- Ensures **code quality** by running automated tests before deployment.  
+- Enables **faster delivery** of new features and bug fixes.  
+- Provides **consistent environments** for development, testing, and production.  
+- Reduces human errors by automating repetitive tasks.
 
-- **Authorization**: Controls what actions each user can perform based on their role (e.g., guest vs. host). This prevents users from accessing or modifying data they shouldn’t.
+### Tools Used
+- **GitHub Actions**: Automates testing and deployment workflows directly from the repository.  
+- **Docker**: Containerizes the application to ensure consistent behavior across environments.  
+- **CI/CD Pipelines**: Integrates testing, building, and deployment into a single automated process.
 
-- **Rate Limiting**: Restricts the number of requests a user can make in a given time. This protects the APIs from abuse, spam, or denial-of-service attacks.
 
-- **Data Encryption**: Sensitive information like passwords and payment details will be encrypted to protect user privacy.
 
-- **Secure Payment Processing**: Integrates with trusted payment gateways to ensure payment data is handled safely and securely.
+
 
 
 
