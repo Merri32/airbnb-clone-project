@@ -65,6 +65,39 @@ The goal of this project is to build an Airbnb clone web application where users
 - Each **Booking** has one **Payment**.
 
 
+## Feature Breakdown
+
+### 1. API Documentation
+- **OpenAPI Standard**: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.  
+- **Django REST Framework**: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.  
+- **GraphQL**: Offers a flexible and efficient query mechanism for interacting with the backend.
+
+### 2. User Authentication
+- **Endpoints**: `/users/`, `/users/{user_id}/`  
+- **Features**: Enables user registration, authentication, and profile management for both hosts and guests.
+
+### 3. Property Management
+- **Endpoints**: `/properties/`, `/properties/{property_id}/`  
+- **Features**: Allows hosts to create, update, retrieve, and delete property listings.
+
+### 4. Booking System
+- **Endpoints**: `/bookings/`, `/bookings/{booking_id}/`  
+- **Features**: Handles booking creation, updates, and management — including check-in and check-out details.
+
+### 5. Payment Processing
+- **Endpoints**: `/payments/`  
+- **Features**: Processes payment transactions related to bookings securely and efficiently.
+
+### 6. Review System
+- **Endpoints**: `/reviews/`, `/reviews/{review_id}/`  
+- **Features**: Allows users to post and manage reviews for properties they’ve stayed at.
+
+### 7. Database Optimizations
+- **Indexing**: Implements indexes for fast retrieval of frequently accessed data.  
+- **Caching**: Uses caching strategies to reduce database load and improve performance.
+
+
+
 
 
 
